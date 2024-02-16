@@ -1,0 +1,99 @@
+body {
+    background-color: #f0f0f0; /* Light gray background for all pages */
+    font-family: Arial, sans-serif; /* Common font for consistency */
+}
+
+nav {
+    background-color: #333; /* Dark background for navigation */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text in navigation */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ddd; /* Lighter color on hover */
+}
+header {
+    background-color: #568bc3; /* Blue header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section p:first-of-type {
+    color: #28a745; /* Green color for the first paragraph */
+}
+
+header h2 {
+    background-color: #e5ffea; /* Dark gray for the name heading */
+    color: rgb(5, 5, 5);
+    padding: 10px;
+    text-align: center;
+}
+
+section img {
+    display: block;
+    margin: 20px auto; /* Centering the image */
+}
+
+section p:first-of-type {
+    color: #17a2b8; /* Teal color for the introduction paragraph */
+}
+
+section p:nth-of-type(2) {
+    color: #ffc107; /* Yellow color for the hobby paragraph */
+}
+
+form {
+    background-color: #f8f9fa; /* Lighter gray for form background */
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto; /* Centering the form */
+}
+
+form label {
+    color: #007bff; /* Blue labels */
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #28a745; /* Green submit button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
